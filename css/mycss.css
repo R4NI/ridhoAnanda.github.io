@@ -1,0 +1,59 @@
+* {
+  font-family: "Monda", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+nav .container a {
+  font-family: "Monda", sans-serif;
+}
+
+nav .container-fluid .navbar-brand {
+  font-family: "Kaushan Script", cursive;
+}
+
+.jumbotron {
+  padding: 3rem;
+}
+.head {
+  font-size: 4rem;
+  font-family: "Monda", sans-serif;
+}
+.row span.line {
+  width: 50%;
+  border: 1px solid #ffc700;
+}
+.foot h3 {
+  font-family: "Kaushan Script", cursive;
+}
+
+.lead {
+  animation-name: animasi;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.63, -0.43, 0.18, 1.21);
+  animation-fill-mode: forwards;
+}
+.lead-photo {
+  animation-name: animasi-photo;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.63, -0.43, 0.18, 1.21);
+  animation-fill-mode: forwards;
+}
+
+@keyframes animasi {
+  0% {
+    transform: translateX(-1300px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes animasi-photo {
+  0% {
+    transform: translateX(1300px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
